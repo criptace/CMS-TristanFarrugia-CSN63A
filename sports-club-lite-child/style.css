@@ -1,0 +1,84 @@
+/*
+Theme Name: Sports Club Lite
+Theme URI: https://gracethemes.com/themes/free-sports-league-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: Sports Club Lite is a resourceful, modern and engaging, youthful and lively, purposeful and versatile, highly responsive sports league WordPress theme. This sports theme has been designed to provide an easy and specialized platform for the streamlined development of professional, awesome and tech-savvy websites for various sports club. This flexible theme can be adjusted to be used for rugby, football, basketball, volleyball, hockey, tennis, baseball or any other individual sport. This feature-rich, highly customizable and multisport WordPress theme can also be used to create a fully functional website template for fitness clubs, gyms, dance schools, martial arts, personal trainers and any other health & fitness related business.  Demo Link: http://www.gracethemesdemo.com/sports-club/
+
+Version: 1.1
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: sports-club-lite
+Text Domain: sports-club-lite
+Tags:blog,two-columns,right-sidebar,full-width-template,custom-colors,custom-menu,custom-header,custom-logo,featured-images,editor-style,custom-background,threaded-comments,theme-options, translation-ready
+
+Sports Club Lite WordPress Theme has been created by Grace Themes(gracethemes.com), 2019.
+Sports Club Lite WordPress Theme is released under the terms of GNU GPL
+*/
+@import url("../sports-club-lite/style.css");
+
+/* changes to the H1 header tags */
+h1 {
+	font-size: 25px;
+	font-family: 'Calibri', sans-serif;
+	color: black;
+	margin: 0 0 20px;
+	padding: 0;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+/* changed the date marging to make it more clear */
+div.blogpost_date {
+	color: black;
+	text-align: center;
+	margin: 5px;
+}
+
+/* opacity of the navigation menu */
+div.sitemenu{
+	opacity: 0.9;
+}
+
+/* modified the size and margins becase of the big gap */
+img.custom-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: 90px;
+	width: 55%
+}
+
+/* changes the author name position to make it more clear */
+div.post-author{
+	color: black;
+	text-align:center;
+	margin: 0px;
+}
+
+/* Changed the text of the calendar in the footer */
+.footer-wrapper {
+	color: #FFFFFF;
+}
+
+
+/* changes the bottom of the footer to the same color as the footer*/
+div.footer_bottom {
+	background-color: #262a31;
+}
+
+/* chnaged the blogs line height so the text is more clear */
+div.entry-content {
+	line-height: 50px;
+}
+
+
+/* author name and date are now in the middle of the page */
+div.blogpost_meta {
+	margin-left: 30%;
+}
+
+/* fixed the orange header as it was not displayed properly*/
+.header_right {
+	padding: 10px;
+}
+
